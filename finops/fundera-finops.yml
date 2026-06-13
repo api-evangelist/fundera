@@ -1,0 +1,49 @@
+name: Fundera FinOps
+description: >
+  Financial operations considerations for integrating with or using
+  Fundera by NerdWallet as part of a small business financial technology stack.
+  Fundera is a free marketplace — costs arise from the loan products themselves,
+  not from the Fundera platform.
+costs:
+  platform:
+    description: No cost to use the Fundera marketplace platform.
+    amount: 0
+    currency: USD
+  loan_products:
+    description: >
+      Costs are determined by the individual lenders in Fundera's network.
+      Interest rates and fees vary by product type, lender, and borrower
+      qualifications.
+    examples:
+      - product: SBA Loans
+        rate_range: "Varies; typically prime + 2.25% to 4.75%"
+        term: "10 to 25 years"
+      - product: Term Loans
+        rate_range: "7% to 99% APR depending on lender and creditworthiness"
+        term: "3 months to 10+ years"
+      - product: Lines of Credit
+        rate_range: "7% to 60% APR"
+        term: "Revolving"
+      - product: Equipment Financing
+        rate_range: "4% to 45% APR"
+        term: "Up to 5 years"
+      - product: Invoice Factoring
+        rate_range: "0.5% to 5% per 30 days"
+        advance_rate: "Up to 90% of invoice value"
+      - product: Merchant Cash Advance
+        factor_rate: "1.1x to 1.5x"
+        notes: "Repaid as percentage of daily card sales"
+  affiliate:
+    description: >
+      Affiliate partners earn referral commissions when referred businesses
+      are successfully funded. Commission rates are set per partnership
+      agreement through the Impact.com affiliate network.
+    commission: "Varies by partner agreement"
+recommendations:
+  - Monitor loan product rates from Fundera's lender network separately;
+    Fundera itself has no API cost exposure.
+  - Budget for partner integration costs if using the Impact.com affiliate
+    API to track referrals.
+  - Lender rates change frequently; pull updated rate guidance from
+    fundera.com/business-loans rather than caching static values.
+url: https://www.fundera.com/business-loans

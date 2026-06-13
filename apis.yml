@@ -1,0 +1,82 @@
+aid: fundera
+name: Fundera
+description: >
+  Fundera by NerdWallet is a small business financial guidance and lending
+  marketplace platform that helps small business owners compare and access
+  loan products, business credit cards, checking accounts, and financial
+  health tools. Fundera connects borrowers with a vetted network of lenders
+  offering SBA loans, term loans, lines of credit, equipment financing,
+  invoice factoring, merchant cash advances, and commercial real estate loans.
+  Acquired by NerdWallet in 2020, Fundera has secured over $5.4 billion in
+  funds for more than 77,000 small businesses.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/fundera/refs/heads/main/apis.yml
+created: '2026-06-13'
+modified: '2026-06-13'
+specificationVersion: '0.19'
+tags:
+  - Small Business
+  - Business Loans
+  - Financial Services
+  - Lending Marketplace
+  - Credit Cards
+  - SBA Loans
+  - NerdWallet
+  - FinTech
+apis:
+  - aid: fundera:fundera-marketplace
+    name: Fundera Marketplace
+    description: >
+      The Fundera by NerdWallet marketplace platform for comparing and applying
+      for small business loan products, credit cards, and checking accounts.
+      Provides a single application to prequalify across multiple lenders
+      covering SBA loans, term loans, lines of credit, equipment financing,
+      invoice factoring, merchant cash advances, and commercial real estate loans.
+    humanURL: https://www.fundera.com
+    baseURL: https://www.fundera.com
+    tags:
+      - Business Loans
+      - SBA Loans
+      - Lines of Credit
+      - Equipment Financing
+      - Invoice Factoring
+      - Merchant Cash Advance
+      - Commercial Real Estate
+    properties:
+      - type: Website
+        url: https://www.fundera.com
+      - type: Documentation
+        url: https://www.fundera.com/business-loans
+      - type: Plans
+        url: plans/fundera-plans-pricing.yml
+      - type: RateLimits
+        url: rate-limits/fundera-rate-limits.yml
+      - type: FinOps
+        url: finops/fundera-finops.yml
+common:
+  - type: Website
+    url: https://www.fundera.com
+  - type: Documentation
+    url: https://www.fundera.com/business-loans
+  - type: GitHubOrg
+    url: https://github.com/NerdWalletOSS
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/fundera
+  - type: Blog
+    url: https://www.fundera.com/blog
+  - type: Pricing
+    url: https://www.fundera.com/business-loans
+  - type: StatusPage
+    url: https://www.fundera.com
+  - type: X
+    url: https://x.com/fundera
+  - type: Plans
+    url: plans/fundera-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/fundera-rate-limits.yml
+  - type: FinOps
+    url: finops/fundera-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com

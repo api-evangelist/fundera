@@ -1,0 +1,30 @@
+name: Fundera Plans and Pricing
+description: >
+  Fundera by NerdWallet operates as a free marketplace for small business
+  financial products. There is no direct cost to business owners for using
+  the platform. Fundera earns revenue through lender partnerships when a
+  business is successfully connected with and funded by a lender in its
+  network.
+plans:
+  - name: Free Marketplace Access
+    description: >
+      Access to Fundera's full marketplace of small business loan products,
+      credit cards, checking accounts, and financial tools at no cost to
+      the borrower. Fundera receives referral fees from lenders.
+    price: 0
+    currency: USD
+    unit: per application
+    features:
+      - Single application to prequalify for multiple lenders
+      - Soft credit inquiry (no impact to credit score)
+      - Access to SBA loans, term loans, lines of credit, equipment financing
+      - Access to invoice factoring and merchant cash advances
+      - Access to commercial real estate loans
+      - Dedicated lending specialist support
+      - Funding in as little as one business day
+notes: >
+  Fundera does not charge borrowers. Lenders pay referral or partnership
+  fees when they fund businesses introduced via the Fundera platform.
+  Individual loan terms, rates, and fees are set by the partner lenders,
+  not by Fundera.
+url: https://www.fundera.com/business-loans

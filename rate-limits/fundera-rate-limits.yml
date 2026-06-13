@@ -1,0 +1,28 @@
+name: Fundera Rate Limits
+description: >
+  Fundera by NerdWallet does not publish a public developer API and therefore
+  has no documented API rate limits. The platform operates as a consumer-facing
+  marketplace for small business financial products. Any partner or affiliate
+  integrations are managed through private agreements with NerdWallet's
+  business development team.
+tiers:
+  - name: Public Website
+    description: Standard web browsing access to fundera.com
+    limits:
+      - type: requests
+        notes: No published rate limits; standard browser-based web access only.
+  - name: Affiliate / Partner Integration
+    description: >
+      Private affiliate and referral integrations available through the
+      Impact.com affiliate network and direct partnership agreements.
+    limits:
+      - type: requests
+        notes: >
+          Limits governed by individual partner agreements and the Impact.com
+          affiliate network terms. Not publicly documented.
+notes: >
+  No public REST API or developer portal is available for Fundera as of
+  June 2026. Businesses seeking integration should contact
+  NerdWallet's partnerships team.
+contact: support@fundera.com
+url: https://www.fundera.com
