@@ -1,0 +1,88 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Fundera",
+  "alternateName": "Fundera by NerdWallet",
+  "description": "Fundera by NerdWallet is a small business financial guidance and lending marketplace platform that helps small business owners compare and access loan products, business credit cards, checking accounts, and financial health tools. Fundera connects borrowers with a vetted network of lenders offering SBA loans, term loans, lines of credit, equipment financing, invoice factoring, merchant cash advances, and commercial real estate loans.",
+  "url": "https://www.fundera.com",
+  "logo": "https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg",
+  "sameAs": [
+    "https://www.linkedin.com/company/fundera",
+    "https://x.com/fundera",
+    "https://github.com/NerdWalletOSS"
+  ],
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "NerdWallet",
+    "url": "https://www.nerdwallet.com"
+  },
+  "knowsAbout": [
+    "Small Business Loans",
+    "SBA Loans",
+    "Business Lines of Credit",
+    "Equipment Financing",
+    "Invoice Factoring",
+    "Merchant Cash Advance",
+    "Commercial Real Estate Loans",
+    "Business Credit Cards",
+    "Business Checking Accounts",
+    "Lending Marketplace"
+  ],
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Fundera Small Business Financial Products",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "name": "SBA Loans",
+        "description": "SBA 7(a) and 504 loan programs for small businesses",
+        "url": "https://www.fundera.com/business-loans/sba-loans"
+      },
+      {
+        "@type": "Offer",
+        "name": "Term Loans",
+        "description": "Short-term and long-term business term loans",
+        "url": "https://www.fundera.com/business-loans/small-business-loans"
+      },
+      {
+        "@type": "Offer",
+        "name": "Business Lines of Credit",
+        "description": "Flexible revolving lines of credit for small businesses",
+        "url": "https://www.fundera.com/business-loans/business-line-of-credit"
+      },
+      {
+        "@type": "Offer",
+        "name": "Equipment Financing",
+        "description": "Loans and leases for business equipment purchases",
+        "url": "https://www.fundera.com/business-loans/equipment-financing"
+      },
+      {
+        "@type": "Offer",
+        "name": "Invoice Factoring",
+        "description": "Convert outstanding invoices into immediate working capital",
+        "url": "https://www.fundera.com/business-loans/invoice-factoring"
+      },
+      {
+        "@type": "Offer",
+        "name": "Merchant Cash Advance",
+        "description": "Revenue-based financing repaid through future sales",
+        "url": "https://www.fundera.com/business-loans/merchant-cash-advance"
+      },
+      {
+        "@type": "Offer",
+        "name": "Commercial Real Estate Loans",
+        "description": "Financing for purchasing or refinancing commercial property",
+        "url": "https://www.fundera.com/business-loans/commercial-real-estate-loans"
+      }
+    ]
+  },
+  "foundingDate": "2013",
+  "numberOfEmployees": {
+    "@type": "QuantitativeValue",
+    "value": "200"
+  },
+  "areaServed": {
+    "@type": "Country",
+    "name": "United States"
+  }
+}
