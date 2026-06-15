@@ -4,5 +4,14 @@
   "title": "Fundera Blog",
   "description": "Small business financial guidance, lending tips, and resources from Fundera by NerdWallet.",
   "lastFetched": "2026-06-13",
-  "posts": []
+  "posts": [],
+  "repo": "fundera",
+  "feeds": [
+    {
+      "source": "https://www.linkedin.com/company/fundera",
+      "error": "HTTPError"
+    }
+  ],
+  "post_count": 0,
+  "fetched": "2026-06-14T20:42:17Z"
 }
