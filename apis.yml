@@ -55,6 +55,8 @@ apis:
       - type: FinOps
         url: finops/fundera-finops.yml
 common:
+  - type: DomainSecurity
+    url: security/fundera-domain-security.yml
   - type: Website
     url: https://www.fundera.com
   - type: Documentation
