@@ -10,6 +10,17 @@ description: >
   Acquired by NerdWallet in 2020, Fundera has secured over $5.4 billion in
   funds for more than 77,000 small businesses.
 type: Index
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: free
   onboarding: unknown
