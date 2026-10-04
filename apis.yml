@@ -41,7 +41,7 @@ specificationVersion: '0.23'
 tags:
   - Small Business
   - Business Loans
-  - Financial-Services
+  - Financial Services
   - Lending Marketplace
   - Credit Cards
   - SBA Loans
@@ -56,6 +56,7 @@ tags_raw:
   - SBA Loans
   - NerdWallet
   - FinTech
+  - Financial-Services
 apis:
   - aid: fundera:fundera-marketplace
     name: Fundera Marketplace
@@ -66,7 +67,6 @@ apis:
       covering SBA loans, term loans, lines of credit, equipment financing,
       invoice factoring, merchant cash advances, and commercial real estate loans.
     humanURL: https://www.fundera.com
-    baseURL: https://www.fundera.com
     tags:
       - Business Loans
       - SBA Loans
