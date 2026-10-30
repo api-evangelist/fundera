@@ -1,4 +1,4 @@
-# Fundera (fundera)
+# Fundera
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,70 +66,103 @@
 
 Fundera by NerdWallet is a small business financial guidance and lending marketplace platform that helps small business owners compare and access loan products, business credit cards, checking accounts, and financial health tools. Fundera connects borrowers with a vetted network of lenders offering SBA loans, term loans, lines of credit, equipment financing, invoice factoring, merchant cash advances, and commercial real estate loans. Acquired by NerdWallet in 2020, Fundera has secured over $5.4 billion in funds for more than 77,000 small businesses.
 
-**APIs.json:** [https://raw.githubusercontent.com/api-evangelist/fundera/refs/heads/main/apis.yml](https://raw.githubusercontent.com/api-evangelist/fundera/refs/heads/main/apis.yml)
+**Areas:** Small Business · Business Loans · Financial Services · Lending Marketplace · Credit Cards · SBA Loans · NerdWallet · Fintech
 
-## Scope
+## Fundera on APIs.io
 
-- **Type:** Index
+Everything profiled for Fundera is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/fundera/](https://apis.io/providers/fundera/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (1)
 
-- Small Business
-- Business Loans
-- Financial Services
-- Lending Marketplace
-- Credit Cards
-- SBA Loans
-- NerdWallet
-- FinTech
+- [Fundera Marketplace](https://apis.io/apis/fundera/fundera-marketplace/) — The Fundera by NerdWallet marketplace platform for comparing and applying for small business loan products, credit cards, and checking accounts. Provides a…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-06-13
-- **Modified:** 2026-06-13
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### Fundera Marketplace
+Authentication, trust centre, and vulnerability disclosure.
 
-The Fundera by NerdWallet marketplace platform for comparing and applying for small business loan products, credit cards, and checking accounts. Provides a single application to prequalify across multiple lenders covering SBA loans, term loans, lines of credit, equipment financing, invoice factoring, merchant cash advances, and commercial real estate loans.
+- [Fundera Domain Security](https://apis.io/security/fundera/fundera-domain-security/)
 
-- **Human URL:** [https://www.fundera.com](https://www.fundera.com)
-- **Base URL:** `https://www.fundera.com`
+#### Plans and pricing (1)
 
-#### Tags
+Published plans, tiers and prices.
 
-- Business Loans
-- SBA Loans
-- Lines of Credit
-- Equipment Financing
-- Invoice Factoring
-- Merchant Cash Advance
-- Commercial Real Estate
+- [Fundera Plans Pricing](https://apis.io/plans/fundera/fundera-plans-pricing/)
 
-#### Properties
+#### Rate limits (1)
 
-- [Website](https://www.fundera.com)
-- [Documentation](https://www.fundera.com/business-loans)
-- [Plans](plans/fundera-plans-pricing.yml)
-- [Rate Limits](rate-limits/fundera-rate-limits.yml)
-- [Fin Ops](finops/fundera-finops.yml)
+Published request limits.
 
-## Common Properties
+- [Fundera Rate Limits](https://apis.io/rate-limits/fundera/fundera-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Fundera Finops](https://apis.io/finops/fundera/fundera-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.fundera.com)
 - [Documentation](https://www.fundera.com/business-loans)
-- [Git Hub Org](https://github.com/NerdWalletOSS)
-- [LinkedIn](https://www.linkedin.com/company/fundera)
-- [Blog](https://www.fundera.com/blog)
 - [Pricing](https://www.fundera.com/business-loans)
-- [Status Page](https://www.fundera.com)
-- [X (Twitter)](https://x.com/fundera)
-- [Plans](plans/fundera-plans-pricing.yml)
-- [Rate Limits](rate-limits/fundera-rate-limits.yml)
-- [Fin Ops](finops/fundera-finops.yml)
+- [Blog](https://www.fundera.com/blog)
+- [Status](https://www.fundera.com)
 
-## Maintainers
+## API Evangelist rating
 
-**FN:** Kin Lane
-**Email:** kin@apievangelist.com
+**Kin Score 11.9** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 57.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 11.9 |
+| Access clarity | 15.8 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.4** — Payments
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/fundera/](https://apis.io/providers/fundera/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Fundera: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/fundera/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
